@@ -1,0 +1,89 @@
+/* .loader {
+        color: #000;
+        display: inline-block;
+        position: relative;
+        font-size: 48px;
+        font-family: Arial, Helvetica, sans-serif;
+        box-sizing: border-box;
+    }.loader::after {
+        content: '';  
+        width: 5px;
+        height: 5px;
+        background: currentColor;
+        position: absolute;
+        bottom: 10px;
+        right: -5px;
+        box-sizing: border-box;
+        animation: animloader 1s linear infinite;
+    }
+    
+    @keyframes animloader {
+        0% {
+        box-shadow: 10px 0 rgba(255, 255, 255, 0), 20px 0 rgba(255, 255, 255, 0);
+        }
+        50% {
+        box-shadow: 10px 0 white, 20px 0 rgba(255, 255, 255, 0);
+        }
+        100% {
+        box-shadow: 10px 0 white, 20px 0 white;
+        }
+    } */
+
+
+/* .loader {
+        width: 48px;
+        height: 48px;
+        border: 5px solid #000000;
+        border-bottom-color: transparent;
+        border-radius: 50%;
+        display: inline-block;
+        box-sizing: border-box;
+        animation: rotation 1s linear infinite;
+    }
+    
+    @keyframes rotation {
+        0% {
+            transform: rotate(0deg);
+        }
+        100% {
+            transform: rotate(360deg);
+        }
+    }  */
+
+
+/* .loader, .loader:before, .loader:after {
+        border-radius: 50%;
+        width: 2.5em;
+        height: 2.5em;
+        animation-fill-mode: both;
+        animation: bblFadInOut 1.8s infinite ease-in-out;
+    }
+    .loader {
+        color: #000000;
+        font-size: 7px;
+        position: relative;
+        text-indent: -9999em;
+        transform: translateZ(0);
+        animation-delay: -0.16s;
+    }
+    .loader:before,
+    .loader:after {
+        content: '';
+        position: absolute;
+        top: 0;
+    }
+    .loader:before {
+        left: -3.5em;
+        animation-delay: -0.32s;
+    }
+    .loader:after {
+        left: 3.5em;
+    }
+    
+    @keyframes bblFadInOut {
+        0%, 80%, 100% { box-shadow: 0 2.5em 0 -1.3em }
+        40% { box-shadow: 0 2.5em 0 0 }
+    } */
+
+
+
